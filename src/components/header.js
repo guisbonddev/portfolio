@@ -27,6 +27,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </header>
 )
 
