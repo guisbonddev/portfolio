@@ -11,6 +11,14 @@ const Header = ({ siteTitle }) => (
       background: `transparent`,
     }}
   >
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
     <div
       style={{
         margin: `0 auto`,
@@ -24,33 +32,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             color: `black`
           }}
-        >    
-        <Logo />
+        > 
         </Link>
       </h3>
     </div>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script src="https://unpkg.com/react/umd/react.production.js" crossorigin />
-
-    <script
-      src="https://unpkg.com/react-dom/umd/react-dom.production.js"
-      crossorigin
-    />
-
-    <script
-      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-      crossorigin
-    />
-
-    <script>var Alert = ReactBootstrap.Alert;</script>
-    
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
-
     <TypographyStyle typography={typography} />
   </header>
 )
