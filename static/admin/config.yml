@@ -38,8 +38,8 @@ collections:
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "experience"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Start Date", name: "date", widget: "startdate"}
-      - {label: "End Date", name: "date", widget: "enddate"}
+      - {label: "Start Date", name: "startdate", widget: "datetime"}
+      - {label: "End Date", name: "enddate", widget: "datetime"}
       - {label: "Skills Earned", name: "skills", widget: "list"}
       - {label: "Description", name: "description", widget: "markdown"}
 
