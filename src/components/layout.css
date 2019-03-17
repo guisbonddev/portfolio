@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -61,6 +63,7 @@ dfn {
   font-style: italic;
 }
 h1 {
+  font-family: 'Major Mono Display', monospace;
   font-size: 2em;
   margin: 0.67em 0;
 }

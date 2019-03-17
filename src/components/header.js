@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../components/image"
+import { TypographyStyle, GoogleFont } from 'react-typography'
+import typography from '../utils/typography'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -48,6 +50,8 @@ const Header = ({ siteTitle }) => (
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+
+    <TypographyStyle typography={typography} />
   </header>
 )
 

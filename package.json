@@ -12,6 +12,7 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.9",
     "gatsby-plugin-sharp": "^2.0.28",
+    "gatsby-plugin-typography": "^2.2.10",
     "gatsby-source-filesystem": "^2.0.24",
     "gatsby-transformer-sharp": "^2.1.17",
     "netlify-cms": "^2.6.1",
@@ -19,7 +20,10 @@
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.19",
+    "typeface-major-mono-display": "0.0.71",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
