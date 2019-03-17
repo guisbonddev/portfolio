@@ -14,7 +14,7 @@ collections:
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "moment"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Caption/Description", name: "caption", widget: "text"}
   - name: "work"
@@ -25,7 +25,7 @@ collections:
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "work"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Finish Date", name: "date", widget: "datetime"}
+      - {label: "Finish Date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Partners", name: "partners", widget: "list"}
@@ -38,8 +38,8 @@ collections:
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "experience"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Start Date", name: "startdate", widget: "datetime"}
-      - {label: "End Date", name: "enddate", widget: "datetime"}
+      - {label: "Start Date", name: "startdate", widget: "date"}
+      - {label: "End Date", name: "enddate", widget: "date"}
       - {label: "Skills Earned", name: "skills", widget: "list"}
       - {label: "Description", name: "description", widget: "markdown"}
 
