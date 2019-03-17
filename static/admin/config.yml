@@ -4,3 +4,42 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+
+collections:
+  - name: "moment" 
+    label: "Moment" 
+    folder: "pages/moments" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "moment"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Caption/Description", name: "caption", widget: "text"}
+  - name: "work"
+    label: "Work"
+    folder: "pages/work" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "work"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Finish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Partners", name: "partners", widget: "list"}
+      - {label: "Description", name: "description", widget: "markdown"}
+  - name: "experience"
+    label: "Experience"
+    folder: "pages/experience" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "experience"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Start Date", name: "date", widget: "startdate"}
+      - {label: "End Date", name: "date", widget: "enddate"}
+      - {label: "Skills Earned", name: "skills", widget: "list"}
+      - {label: "Description", name: "description", widget: "markdown"}
+
